@@ -59,7 +59,7 @@ window.onload = function () {
           
           helper(data)
           
-          fetch('http://localhost:3000/burger',{
+          fetch(url,{
             method: 'POST',
             headers:{
               // 'Accept': 'application/json',
